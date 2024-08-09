@@ -1,0 +1,49 @@
+{
+  "Location": [
+    "Sydney",
+    "Melbourne",
+    "Brisbane",
+    "Adelaide",
+    "London",
+    "New York",
+    "Los Angeles",
+    "Paris"
+  ],
+
+  "Hotels": ["Hotel Creek", "Hotel Sunshine", "Hotel Hervey", "Hotel Cornice"],
+
+  "RoomType": ["Standard", "Double", "Deluxe", "Super Deluxe"],
+
+  "NumberOfRooms": [
+    "1 - One",
+    "2 - Two",
+    "3 - Three",
+    "4 - Four",
+    "5 - Five",
+    "6 - Six",
+    "7 - Seven",
+    "8 - Eight",
+    "9 - Nine",
+    "10 - Ten"
+  ],
+
+  "CheckInDate": [
+    "10/08/2024",
+    "15/08/2024",
+    "20/08/2024",
+    "25/08/2024",
+    "30/08/2024"
+  ],
+
+  "CheckOutDate": [
+    "12/08/2024",
+    "18/08/2024",
+    "23/08/2024",
+    "28/08/2024",
+    "02/09/2024"
+  ],
+
+  "AdultsPerRoom": ["1 - One", "2 - Two", "3 - Three", "4 - Four"],
+
+  "ChildrenPreRoom": ["0 - None", "1 - One", "2 - Two", "3 - Three", "4 - Four"]
+}

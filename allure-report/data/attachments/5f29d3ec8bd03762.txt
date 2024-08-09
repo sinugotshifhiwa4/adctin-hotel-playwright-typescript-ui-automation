@@ -1,0 +1,10 @@
+2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 23/08/2024 successfully

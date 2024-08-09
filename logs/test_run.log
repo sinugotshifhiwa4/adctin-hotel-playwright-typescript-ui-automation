@@ -1,0 +1,645 @@
+2024-08-09T15:50:30+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T15:50:30+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T15:50:30+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T15:50:31+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T15:50:31+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T15:50:31+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T15:50:31+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T15:50:31+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T15:50:32+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T15:50:32+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T15:50:32+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T15:50:32+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T15:50:32+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T15:50:32+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T15:50:32+02:00 [info]: Successfully selected element location
+2024-08-09T15:50:33+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T15:50:33+02:00 [info]: Successfully verified element errorMessageAbsent is not visible
+2024-08-09T15:50:33+02:00 [info]: Successfully selected element location
+2024-08-09T15:50:33+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:33+02:00 [info]: Option with value Brisbane is selected: true
+2024-08-09T15:50:33+02:00 [info]: Successfully selected element hotels
+2024-08-09T15:50:33+02:00 [info]: Successfully verified element welcomeTextPresent is visible
+2024-08-09T15:50:34+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:34+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:34+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T15:50:34+02:00 [info]: Option with value Hotel Cornice is selected: true
+2024-08-09T15:50:34+02:00 [info]: Successfully selected element roomType
+2024-08-09T15:50:34+02:00 [info]: Successfully selected element hotels
+2024-08-09T15:50:34+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:34+02:00 [info]: Option with value Double is selected: true
+2024-08-09T15:50:34+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:34+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T15:50:34+02:00 [info]: Successfully selected element roomType
+2024-08-09T15:50:34+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T15:50:35+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:35+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T15:50:35+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T15:50:35+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:35+02:00 [info]: Option with value 4 - Four is selected: true
+2024-08-09T15:50:35+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T15:50:35+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T15:50:35+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T15:50:35+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T15:50:35+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T15:50:35+02:00 [info]: Screenshot captured: isOptionSelected
+2024-08-09T15:50:35+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T15:50:35+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T15:50:35+02:00 [info]: Successfully clicked element resetButton
+2024-08-09T15:50:35+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T15:50:36+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T15:50:36+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T15:50:36+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T15:50:36+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T15:50:36+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T15:50:36+02:00 [info]: Successfully clicked element searchButton
+2024-08-09T16:10:21+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T16:10:21+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T16:10:21+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T16:10:21+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T16:10:21+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T16:10:21+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T16:10:22+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T16:10:23+02:00 [info]: Successfully selected element location
+2024-08-09T16:10:23+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:10:23+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T16:10:23+02:00 [info]: Successfully selected element hotels
+2024-08-09T16:10:23+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:10:23+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T16:10:23+02:00 [info]: Successfully selected element roomType
+2024-08-09T16:10:23+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:10:23+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T16:10:24+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T16:10:24+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:10:24+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T16:10:24+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T16:10:24+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T16:10:24+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T16:10:24+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T16:10:24+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T16:10:24+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T16:10:25+02:00 [info]: Successfully clicked element searchButton
+2024-08-09T16:26:46+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T16:26:46+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T16:26:46+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T16:26:46+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T16:26:46+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T16:26:46+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T16:26:47+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T16:26:48+02:00 [info]: Successfully selected element location
+2024-08-09T16:26:48+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:26:48+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T16:26:48+02:00 [info]: Successfully selected element hotels
+2024-08-09T16:26:48+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:26:48+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T16:26:48+02:00 [info]: Successfully selected element roomType
+2024-08-09T16:26:49+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:26:49+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T16:26:49+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T16:26:49+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T16:26:49+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T16:26:49+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T16:26:49+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T16:26:49+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T16:26:49+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T16:26:49+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T16:26:49+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T16:26:50+02:00 [info]: Successfully clicked element searchButton
+2024-08-09T16:26:50+02:00 [info]: Searched Hotel successfully
+2024-08-09T17:13:01+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:02+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:02+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:02+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:02+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:03+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:04+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:04+02:00 [info]: Option with value Sydney is selected: true
+2024-08-09T17:13:04+02:00 [info]: Selected Location - Sydney successfully
+2024-08-09T17:13:12+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:12+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:13+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:13+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:13+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:13+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:14+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:14+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:14+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:15+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:15+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:15+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:15+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:16+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:16+02:00 [info]: Option with value Brisbane is selected: true
+2024-08-09T17:13:16+02:00 [info]: Selected Location - Brisbane successfully
+2024-08-09T17:13:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:15+02:00 [info]: Login with valid credentials was successful
+2024-08-09T17:13:16+02:00 [info]: Successfully verified element errorMessageAbsent is not visible
+2024-08-09T17:13:16+02:00 [info]: Successfully verified element welcomeTextPresent is visible
+2024-08-09T17:13:19+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:19+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:20+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:20+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:21+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:21+02:00 [info]: Option with value Melbourne is selected: true
+2024-08-09T17:13:21+02:00 [info]: Selected Location - Melbourne successfully
+2024-08-09T17:13:26+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:26+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:26+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:27+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:27+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:28+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:28+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T17:13:28+02:00 [info]: Selected Location - Adelaide successfully
+2024-08-09T17:13:38+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:38+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:38+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:38+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:38+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:38+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:39+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:40+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:40+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:40+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:40+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:41+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:41+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:41+02:00 [info]: Option with value London is selected: true
+2024-08-09T17:13:41+02:00 [info]: Selected Location - London successfully
+2024-08-09T17:13:41+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:41+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:42+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:43+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:43+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:43+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:43+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:43+02:00 [info]: Option with value Los Angeles is selected: true
+2024-08-09T17:13:43+02:00 [info]: Selected Location - Los Angeles successfully
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:45+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:45+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:45+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:46+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:46+02:00 [info]: Option with value Paris is selected: true
+2024-08-09T17:13:46+02:00 [info]: Selected Location - Paris successfully
+2024-08-09T17:13:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:46+02:00 [info]: Option with value New York is selected: true
+2024-08-09T17:13:46+02:00 [info]: Selected Location - New York successfully
+2024-08-09T17:14:01+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:01+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:01+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:01+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:01+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:01+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:02+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:02+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:02+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:02+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:02+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:03+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:03+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:03+02:00 [info]: Option with value Hotel Cornice is selected: true
+2024-08-09T17:14:03+02:00 [info]: Selected Hotel - Hotel Cornice successfully
+2024-08-09T17:14:04+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:04+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:05+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:05+02:00 [info]: Option with value Hotel Sunshine is selected: true
+2024-08-09T17:14:05+02:00 [info]: Selected Hotel - Hotel Sunshine successfully
+2024-08-09T17:14:06+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:06+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:06+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:06+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:06+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:06+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:06+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:06+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:06+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:08+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:08+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:08+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:08+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:08+02:00 [info]: Option with value Hotel Creek is selected: true
+2024-08-09T17:14:08+02:00 [info]: Selected Hotel - Hotel Creek successfully
+2024-08-09T17:14:08+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:08+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T17:14:08+02:00 [info]: Selected Hotel - Hotel Hervey successfully
+2024-08-09T17:14:15+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:15+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:15+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:15+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:16+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:17+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:17+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:17+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:17+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:17+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:18+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:18+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:18+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:18+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:19+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:19+02:00 [info]: Option with value Double is selected: true
+2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Double successfully
+2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:19+02:00 [info]: Option with value Super Deluxe is selected: true
+2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Super Deluxe successfully
+2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:19+02:00 [info]: Option with value Standard is selected: true
+2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Standard successfully
+2024-08-09T17:14:20+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:20+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:21+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:21+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T17:14:21+02:00 [info]: Selected Room Type - Deluxe successfully
+2024-08-09T17:14:29+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:30+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:30+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:30+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:30+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:30+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:30+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:30+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:30+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:31+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:31+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:31+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:31+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:32+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:32+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:32+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:32+02:00 [info]: Option with value 4 - Four is selected: true
+2024-08-09T17:14:32+02:00 [info]: Selected No of Rooms - 4 - Four successfully
+2024-08-09T17:14:32+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:32+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:32+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:32+02:00 [info]: Option with value 1 - One is selected: true
+2024-08-09T17:14:32+02:00 [info]: Selected No of Rooms - 1 - One successfully
+2024-08-09T17:14:33+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:33+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:33+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:33+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:33+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:34+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:34+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:34+02:00 [info]: Option with value 3 - Three is selected: true
+2024-08-09T17:14:34+02:00 [info]: Selected No of Rooms - 3 - Three successfully
+2024-08-09T17:14:34+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:34+02:00 [info]: Option with value 2 - Two is selected: true
+2024-08-09T17:14:34+02:00 [info]: Selected No of Rooms - 2 - Two successfully
+2024-08-09T17:14:42+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:42+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:42+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:43+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:43+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:43+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:43+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:44+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:45+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:45+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:45+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:46+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:46+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:46+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:46+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T17:14:46+02:00 [info]: Selected No of Rooms - 5 - Five successfully
+2024-08-09T17:14:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:46+02:00 [info]: Option with value 8 - Eight is selected: true
+2024-08-09T17:14:46+02:00 [info]: Selected No of Rooms - 8 - Eight successfully
+2024-08-09T17:14:47+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:47+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:47+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:47+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:48+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:48+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:49+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:49+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:49+02:00 [info]: Option with value 6 - Six is selected: true
+2024-08-09T17:14:49+02:00 [info]: Selected No of Rooms - 6 - Six successfully
+2024-08-09T17:14:49+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:49+02:00 [info]: Option with value 7 - Seven is selected: true
+2024-08-09T17:14:49+02:00 [info]: Selected No of Rooms - 7 - Seven successfully
+2024-08-09T17:14:59+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:59+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:59+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:59+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:59+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:00+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:01+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:01+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:01+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:01+02:00 [info]: Filled Check In Date - 15/08/2024 successfully
+2024-08-09T17:15:01+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:01+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:01+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:01+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:02+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:02+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:02+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:03+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:03+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:03+02:00 [info]: Filled Check In Date - 10/08/2024 successfully
+2024-08-09T17:15:03+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:04+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:15:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:15:04+02:00 [info]: Option with value 10 - Ten is selected: true
+2024-08-09T17:15:04+02:00 [info]: Selected No of Rooms - 10 - Ten successfully
+2024-08-09T17:15:09+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:10+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:10+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:10+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:10+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:10+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:11+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:11+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:11+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:11+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:15:12+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:12+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:15:12+02:00 [info]: Option with value 9 - Nine is selected: true
+2024-08-09T17:15:12+02:00 [info]: Selected No of Rooms - 9 - Nine successfully
+2024-08-09T17:15:12+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:12+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:12+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:13+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:13+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:13+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:13+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:13+02:00 [info]: Filled Check In Date - 30/08/2024 successfully
+2024-08-09T17:15:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:13+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:14+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:14+02:00 [info]: Filled Check In Date - 20/08/2024 successfully
+2024-08-09T17:15:15+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:15+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:15+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:15+02:00 [info]: Filled Check In Date - 25/08/2024 successfully
+2024-08-09T17:15:23+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:23+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:23+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:23+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:23+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:25+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:25+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:25+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:25+02:00 [info]: Filled Check Out Date - 12/08/2024 successfully
+2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 18/08/2024 successfully
+2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 23/08/2024 successfully
+2024-08-09T17:15:27+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:27+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:27+02:00 [info]: Filled Check Out Date - 28/08/2024 successfully
+2024-08-09T17:15:35+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:35+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:35+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:35+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:35+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:35+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:36+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:37+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:37+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:37+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:37+02:00 [info]: Filled Check Out Date - 02/09/2024 successfully
+2024-08-09T17:15:37+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:37+02:00 [info]: Selected Adults Per Room - 2 - Two successfully
+2024-08-09T17:15:37+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:37+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:37+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:37+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:37+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:38+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:38+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:38+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:39+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:39+02:00 [info]: Selected Adults Per Room - 1 - One successfully
+2024-08-09T17:15:39+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:39+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:39+02:00 [info]: Selected Adults Per Room - 3 - Three successfully
+2024-08-09T17:15:47+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:47+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:47+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:47+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:47+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:47+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:48+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:48+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:48+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:48+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:48+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:48+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:49+02:00 [info]: Selected Children Per Room - 1 - One successfully
+2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:49+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:49+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:49+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:50+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:50+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:50+02:00 [info]: Selected Adults Per Room - 4 - Four successfully
+2024-08-09T17:15:50+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:51+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 2 - Two successfully
+2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 0 - None successfully
+2024-08-09T17:15:59+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:59+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:59+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:16:00+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:01+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:01+02:00 [info]: Selected Children Per Room - 3 - Three successfully
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element location
+2024-08-09T17:16:01+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element location
+2024-08-09T17:16:02+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:02+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T17:16:02+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:16:02+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Brisbane is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:03+02:00 [info]: Selected Children Per Room - 4 - Four successfully
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Cornice is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:04+02:00 [info]: Option with value Double is selected: true
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:04+02:00 [info]: Option with value 4 - Four is selected: true
+2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:04+02:00 [info]: Successfully clicked element resetButton
+2024-08-09T17:16:04+02:00 [info]: Filled Search Hotel fields and reset them successfully
+2024-08-09T17:16:05+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:05+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T17:16:05+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:16:05+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:16:05+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:16:06+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:16:06+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:16:06+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:06+02:00 [info]: Successfully clicked element searchButton
+2024-08-09T17:16:06+02:00 [info]: Searched Hotel successfully

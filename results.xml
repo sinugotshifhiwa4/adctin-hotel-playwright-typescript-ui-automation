@@ -1,0 +1,969 @@
+<testsuites id="" name="" tests="48" failures="0" skipped="0" errors="0" time="200.044215">
+<testsuite name="HotelTests\LoginPage.spec.ts" timestamp="2024-08-09T15:12:50.474Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.763" errors="0">
+<testcase name="Login Tests Suite › Login with valid credentials" classname="HotelTests\LoginPage.spec.ts" time="21.763">
+<system-out>
+<![CDATA[2024-08-09T17:13:12+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:13+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:14+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:14+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:14+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:15+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:15+02:00 [info]: Login with valid credentials was successful
+2024-08-09T17:13:16+02:00 [info]: Successfully verified element errorMessageAbsent is not visible
+2024-08-09T17:13:16+02:00 [info]: Successfully verified element welcomeTextPresent is visible
+
+[[ATTACHMENT|test-results\HotelTests-LoginPage-Login-e6811-ogin-with-valid-credentials-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-LoginPage-Login-e6811-ogin-with-valid-credentials-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="HotelTests\SearchHotelPage.spec.ts" timestamp="2024-08-09T15:12:50.474Z" hostname="chromium" tests="47" failures="0" skipped="0" time="719.752" errors="0">
+<testcase name="Search Hotel Tests Suite › Select Location - Sydney" classname="HotelTests\SearchHotelPage.spec.ts" time="9.918">
+<system-out>
+<![CDATA[2024-08-09T17:13:01+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:02+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:02+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:02+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:02+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:03+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:04+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:04+02:00 [info]: Option with value Sydney is selected: true
+2024-08-09T17:13:04+02:00 [info]: Selected Location - Sydney successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-05322-te-Select-Location---Sydney-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-05322-te-Select-Location---Sydney-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - Melbourne" classname="HotelTests\SearchHotelPage.spec.ts" time="24.563">
+<system-out>
+<![CDATA[2024-08-09T17:13:13+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:15+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:19+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:19+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:20+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:20+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:21+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:21+02:00 [info]: Option with value Melbourne is selected: true
+2024-08-09T17:13:21+02:00 [info]: Selected Location - Melbourne successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2b47a-Select-Location---Melbourne-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2b47a-Select-Location---Melbourne-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - Brisbane" classname="HotelTests\SearchHotelPage.spec.ts" time="23.89">
+<system-out>
+<![CDATA[2024-08-09T17:13:12+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:13+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:13+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:15+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:15+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:16+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:16+02:00 [info]: Option with value Brisbane is selected: true
+2024-08-09T17:13:16+02:00 [info]: Selected Location - Brisbane successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-94f01--Select-Location---Brisbane-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-94f01--Select-Location---Brisbane-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - Adelaide" classname="HotelTests\SearchHotelPage.spec.ts" time="23.571">
+<system-out>
+<![CDATA[2024-08-09T17:13:26+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:26+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:26+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:27+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:27+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:28+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:28+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T17:13:28+02:00 [info]: Selected Location - Adelaide successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-aed71--Select-Location---Adelaide-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-aed71--Select-Location---Adelaide-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - London" classname="HotelTests\SearchHotelPage.spec.ts" time="22.029">
+<system-out>
+<![CDATA[2024-08-09T17:13:38+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:38+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:38+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:38+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:38+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:38+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:40+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:40+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:41+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:41+02:00 [info]: Option with value London is selected: true
+2024-08-09T17:13:41+02:00 [info]: Selected Location - London successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-ebf27-te-Select-Location---London-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-ebf27-te-Select-Location---London-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - New York" classname="HotelTests\SearchHotelPage.spec.ts" time="29.792">
+<system-out>
+<![CDATA[2024-08-09T17:13:43+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:45+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:46+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:46+02:00 [info]: Option with value New York is selected: true
+2024-08-09T17:13:46+02:00 [info]: Selected Location - New York successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-e99e5--Select-Location---New-York-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-e99e5--Select-Location---New-York-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - Los Angeles" classname="HotelTests\SearchHotelPage.spec.ts" time="27.503">
+<system-out>
+<![CDATA[2024-08-09T17:13:39+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:40+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:40+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:41+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:41+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:41+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:42+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:43+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:43+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:43+02:00 [info]: Option with value Los Angeles is selected: true
+2024-08-09T17:13:43+02:00 [info]: Selected Location - Los Angeles successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-9291b-lect-Location---Los-Angeles-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-9291b-lect-Location---Los-Angeles-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Location - Paris" classname="HotelTests\SearchHotelPage.spec.ts" time="22.303">
+<system-out>
+<![CDATA[2024-08-09T17:13:43+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:44+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:45+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:45+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:46+02:00 [info]: Option with value Paris is selected: true
+2024-08-09T17:13:46+02:00 [info]: Selected Location - Paris successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-f9659-ite-Select-Location---Paris-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-f9659-ite-Select-Location---Paris-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Hotel - Hotel Creek" classname="HotelTests\SearchHotelPage.spec.ts" time="24.507">
+<system-out>
+<![CDATA[2024-08-09T17:14:06+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:06+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:06+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:06+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:06+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:06+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:08+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:08+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:08+02:00 [info]: Option with value Hotel Creek is selected: true
+2024-08-09T17:14:08+02:00 [info]: Selected Hotel - Hotel Creek successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-b51a7--Select-Hotel---Hotel-Creek-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-b51a7--Select-Hotel---Hotel-Creek-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Hotel - Hotel Sunshine" classname="HotelTests\SearchHotelPage.spec.ts" time="15.394">
+<system-out>
+<![CDATA[2024-08-09T17:14:02+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:02+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:02+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:02+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:02+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:04+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:04+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:05+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:05+02:00 [info]: Option with value Hotel Sunshine is selected: true
+2024-08-09T17:14:05+02:00 [info]: Selected Hotel - Hotel Sunshine successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-6efd6-lect-Hotel---Hotel-Sunshine-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-6efd6-lect-Hotel---Hotel-Sunshine-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Hotel - Hotel Hervey" classname="HotelTests\SearchHotelPage.spec.ts" time="18.181">
+<system-out>
+<![CDATA[2024-08-09T17:14:06+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:06+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:06+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:07+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:08+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:08+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:08+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:08+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T17:14:08+02:00 [info]: Selected Hotel - Hotel Hervey successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-bbb8f-Select-Hotel---Hotel-Hervey-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-bbb8f-Select-Hotel---Hotel-Hervey-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Hotel - Hotel Cornice" classname="HotelTests\SearchHotelPage.spec.ts" time="11.197">
+<system-out>
+<![CDATA[2024-08-09T17:14:01+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:01+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:01+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:01+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:01+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:01+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:03+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:03+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:14:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:03+02:00 [info]: Option with value Hotel Cornice is selected: true
+2024-08-09T17:14:03+02:00 [info]: Selected Hotel - Hotel Cornice successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-e1f45-elect-Hotel---Hotel-Cornice-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-e1f45-elect-Hotel---Hotel-Cornice-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Room Type - Standard" classname="HotelTests\SearchHotelPage.spec.ts" time="18.036">
+<system-out>
+<![CDATA[2024-08-09T17:14:16+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:16+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:17+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:18+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:19+02:00 [info]: Option with value Standard is selected: true
+2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Standard successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-7d81c-Select-Room-Type---Standard-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-7d81c-Select-Room-Type---Standard-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Room Type - Double" classname="HotelTests\SearchHotelPage.spec.ts" time="16.214">
+<system-out>
+<![CDATA[2024-08-09T17:14:15+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:16+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:17+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:19+02:00 [info]: Option with value Double is selected: true
+2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Double successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-b1e80-e-Select-Room-Type---Double-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-b1e80-e-Select-Room-Type---Double-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Room Type - Deluxe" classname="HotelTests\SearchHotelPage.spec.ts" time="15.336">
+<system-out>
+<![CDATA[2024-08-09T17:14:17+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:17+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:18+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:18+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:18+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:19+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:20+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:20+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:21+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:21+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T17:14:21+02:00 [info]: Selected Room Type - Deluxe successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-082ce-e-Select-Room-Type---Deluxe-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-082ce-e-Select-Room-Type---Deluxe-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Room Type - Super Deluxe" classname="HotelTests\SearchHotelPage.spec.ts" time="13.94">
+<system-out>
+<![CDATA[2024-08-09T17:14:15+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:15+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:15+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:16+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:17+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:19+02:00 [info]: Option with value Super Deluxe is selected: true
+2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Super Deluxe successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-80674-ct-Room-Type---Super-Deluxe-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-80674-ct-Room-Type---Super-Deluxe-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 1 - One" classname="HotelTests\SearchHotelPage.spec.ts" time="10.831">
+<system-out>
+<![CDATA[2024-08-09T17:14:30+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:30+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:30+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:32+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:32+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:32+02:00 [info]: Option with value 1 - One is selected: true
+2024-08-09T17:14:32+02:00 [info]: Selected No of Rooms - 1 - One successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-eb177-elect-No-of-Rooms---1---One-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-eb177-elect-No-of-Rooms---1---One-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 2 - Two" classname="HotelTests\SearchHotelPage.spec.ts" time="12.657">
+<system-out>
+<![CDATA[2024-08-09T17:14:32+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:32+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:32+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:33+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:33+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:33+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:34+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:34+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:34+02:00 [info]: Option with value 2 - Two is selected: true
+2024-08-09T17:14:34+02:00 [info]: Selected No of Rooms - 2 - Two successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-5c695-elect-No-of-Rooms---2---Two-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-5c695-elect-No-of-Rooms---2---Two-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 3 - Three" classname="HotelTests\SearchHotelPage.spec.ts" time="12.151">
+<system-out>
+<![CDATA[2024-08-09T17:14:31+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:31+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:31+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:32+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:33+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:33+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:34+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:34+02:00 [info]: Option with value 3 - Three is selected: true
+2024-08-09T17:14:34+02:00 [info]: Selected No of Rooms - 3 - Three successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-dc55c-ect-No-of-Rooms---3---Three-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-dc55c-ect-No-of-Rooms---3---Three-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 4 - Four" classname="HotelTests\SearchHotelPage.spec.ts" time="10.543">
+<system-out>
+<![CDATA[2024-08-09T17:14:29+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:30+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:30+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:30+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:30+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:30+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:31+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:31+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:32+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:32+02:00 [info]: Option with value 4 - Four is selected: true
+2024-08-09T17:14:32+02:00 [info]: Selected No of Rooms - 4 - Four successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-34e88-lect-No-of-Rooms---4---Four-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-34e88-lect-No-of-Rooms---4---Four-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 5 - Five" classname="HotelTests\SearchHotelPage.spec.ts" time="17.894">
+<system-out>
+<![CDATA[2024-08-09T17:14:42+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:42+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:42+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:43+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:43+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:43+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:45+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:46+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T17:14:46+02:00 [info]: Selected No of Rooms - 5 - Five successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-aead9-lect-No-of-Rooms---5---Five-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-aead9-lect-No-of-Rooms---5---Five-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 6 - Six" classname="HotelTests\SearchHotelPage.spec.ts" time="18.155">
+<system-out>
+<![CDATA[2024-08-09T17:14:47+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:47+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:47+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:48+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:49+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:49+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:49+02:00 [info]: Option with value 6 - Six is selected: true
+2024-08-09T17:14:49+02:00 [info]: Selected No of Rooms - 6 - Six successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-82c44-elect-No-of-Rooms---6---Six-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-82c44-elect-No-of-Rooms---6---Six-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 7 - Seven" classname="HotelTests\SearchHotelPage.spec.ts" time="15.354">
+<system-out>
+<![CDATA[2024-08-09T17:14:45+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:46+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:46+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:46+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:47+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:48+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:49+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:49+02:00 [info]: Option with value 7 - Seven is selected: true
+2024-08-09T17:14:49+02:00 [info]: Selected No of Rooms - 7 - Seven successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-e7ab5-ect-No-of-Rooms---7---Seven-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-e7ab5-ect-No-of-Rooms---7---Seven-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 8 - Eight" classname="HotelTests\SearchHotelPage.spec.ts" time="15.008">
+<system-out>
+<![CDATA[2024-08-09T17:14:43+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:44+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:44+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:14:45+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:14:46+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:14:46+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:14:46+02:00 [info]: Option with value 8 - Eight is selected: true
+2024-08-09T17:14:46+02:00 [info]: Selected No of Rooms - 8 - Eight successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-4e527-ect-No-of-Rooms---8---Eight-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-4e527-ect-No-of-Rooms---8---Eight-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 9 - Nine" classname="HotelTests\SearchHotelPage.spec.ts" time="24.009">
+<system-out>
+<![CDATA[2024-08-09T17:15:09+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:10+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:10+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:10+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:10+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:10+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:12+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:15:12+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:15:12+02:00 [info]: Option with value 9 - Nine is selected: true
+2024-08-09T17:15:12+02:00 [info]: Selected No of Rooms - 9 - Nine successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-1f0c5-lect-No-of-Rooms---9---Nine-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-1f0c5-lect-No-of-Rooms---9---Nine-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select No of Rooms - 10 - Ten" classname="HotelTests\SearchHotelPage.spec.ts" time="12.973">
+<system-out>
+<![CDATA[2024-08-09T17:15:02+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:02+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:03+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:04+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:15:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:15:04+02:00 [info]: Option with value 10 - Ten is selected: true
+2024-08-09T17:15:04+02:00 [info]: Selected No of Rooms - 10 - Ten successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-69b99-lect-No-of-Rooms---10---Ten-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-69b99-lect-No-of-Rooms---10---Ten-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check In Date - 10/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="11.586">
+<system-out>
+<![CDATA[2024-08-09T17:15:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:01+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:01+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:01+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:01+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:01+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:02+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:03+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:03+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:03+02:00 [info]: Filled Check In Date - 10/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-a4587--Check-In-Date---10-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-a4587--Check-In-Date---10-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check In Date - 15/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="8.868">
+<system-out>
+<![CDATA[2024-08-09T17:14:59+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:14:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:14:59+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:14:59+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:14:59+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:14:59+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:00+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:01+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:01+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:01+02:00 [info]: Filled Check In Date - 15/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-042d0--Check-In-Date---15-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-042d0--Check-In-Date---15-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check In Date - 20/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="13.433">
+<system-out>
+<![CDATA[2024-08-09T17:15:12+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:12+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:12+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:13+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:14+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:14+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:14+02:00 [info]: Filled Check In Date - 20/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-f0c73--Check-In-Date---20-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-f0c73--Check-In-Date---20-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check In Date - 25/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="13.578">
+<system-out>
+<![CDATA[2024-08-09T17:15:13+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:13+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:14+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:15+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:15+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:15+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:15+02:00 [info]: Filled Check In Date - 25/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-7ed39--Check-In-Date---25-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-7ed39--Check-In-Date---25-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check In Date - 30/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="10.361">
+<system-out>
+<![CDATA[2024-08-09T17:15:11+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:11+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:11+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:11+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:12+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:13+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:15:13+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:15:13+02:00 [info]: Filled Check In Date - 30/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-8cc20--Check-In-Date---30-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-8cc20--Check-In-Date---30-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check Out Date - 12/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="11.531">
+<system-out>
+<![CDATA[2024-08-09T17:15:23+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:23+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:23+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:23+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:23+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:25+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:25+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:25+02:00 [info]: Filled Check Out Date - 12/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2b479-Check-Out-Date---12-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2b479-Check-Out-Date---12-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check Out Date - 18/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="12.194">
+<system-out>
+<![CDATA[2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 18/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2548c-Check-Out-Date---18-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2548c-Check-Out-Date---18-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check Out Date - 23/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="10.868">
+<system-out>
+<![CDATA[2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 23/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-50f30-Check-Out-Date---23-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-50f30-Check-Out-Date---23-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check Out Date - 28/08/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="10.822">
+<system-out>
+<![CDATA[2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:25+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:25+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:25+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:26+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:27+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:27+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:27+02:00 [info]: Filled Check Out Date - 28/08/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-a0642-Check-Out-Date---28-08-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-a0642-Check-Out-Date---28-08-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Check Out Date - 02/09/2024" classname="HotelTests\SearchHotelPage.spec.ts" time="11.406">
+<system-out>
+<![CDATA[2024-08-09T17:15:35+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:35+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:35+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:37+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:15:37+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:15:37+02:00 [info]: Filled Check Out Date - 02/09/2024 successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-15670-Check-Out-Date---02-09-2024-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-15670-Check-Out-Date---02-09-2024-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Adults Per Room - 1 - One" classname="HotelTests\SearchHotelPage.spec.ts" time="12.183">
+<system-out>
+<![CDATA[2024-08-09T17:15:37+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:37+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:37+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:37+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:37+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:37+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:39+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:39+02:00 [info]: Selected Adults Per Room - 1 - One successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-f2ead-t-Adults-Per-Room---1---One-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-f2ead-t-Adults-Per-Room---1---One-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Adults Per Room - 2 - Two" classname="HotelTests\SearchHotelPage.spec.ts" time="10.982">
+<system-out>
+<![CDATA[2024-08-09T17:15:35+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:35+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:35+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:35+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:36+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:37+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:37+02:00 [info]: Selected Adults Per Room - 2 - Two successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2f9f3-t-Adults-Per-Room---2---Two-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2f9f3-t-Adults-Per-Room---2---Two-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Adults Per Room - 3 - Three" classname="HotelTests\SearchHotelPage.spec.ts" time="12.047">
+<system-out>
+<![CDATA[2024-08-09T17:15:38+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:38+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:38+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:38+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:39+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:39+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:39+02:00 [info]: Selected Adults Per Room - 3 - Three successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-d2205-Adults-Per-Room---3---Three-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-d2205-Adults-Per-Room---3---Three-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Adults Per Room - 4 - Four" classname="HotelTests\SearchHotelPage.spec.ts" time="13.294">
+<system-out>
+<![CDATA[2024-08-09T17:15:48+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:48+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:48+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:48+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:48+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:50+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:15:50+02:00 [info]: Selected Adults Per Room - 4 - Four successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-c633f--Adults-Per-Room---4---Four-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-c633f--Adults-Per-Room---4---Four-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Children Per Room - 0 - None" classname="HotelTests\SearchHotelPage.spec.ts" time="12.919">
+<system-out>
+<![CDATA[2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:50+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:50+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:51+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 0 - None successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-92162-hildren-Per-Room---0---None-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-92162-hildren-Per-Room---0---None-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Children Per Room - 1 - One" classname="HotelTests\SearchHotelPage.spec.ts" time="11.173">
+<system-out>
+<![CDATA[2024-08-09T17:15:47+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:47+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:47+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:47+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:47+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:47+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:48+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:49+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:49+02:00 [info]: Selected Children Per Room - 1 - One successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-de0a3-Children-Per-Room---1---One-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-de0a3-Children-Per-Room---1---One-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Children Per Room - 2 - Two" classname="HotelTests\SearchHotelPage.spec.ts" time="11.884">
+<system-out>
+<![CDATA[2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:49+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:49+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:49+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 2 - Two successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-8e4cc-Children-Per-Room---2---Two-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-8e4cc-Children-Per-Room---2---Two-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Children Per Room - 3 - Three" classname="HotelTests\SearchHotelPage.spec.ts" time="13.287">
+<system-out>
+<![CDATA[2024-08-09T17:15:59+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:59+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:01+02:00 [info]: Selected Children Per Room - 3 - Three successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2568c-ildren-Per-Room---3---Three-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-2568c-ildren-Per-Room---3---Three-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Select Children Per Room - 4 - Four" classname="HotelTests\SearchHotelPage.spec.ts" time="14.027">
+<system-out>
+<![CDATA[2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:02+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:03+02:00 [info]: Selected Children Per Room - 4 - Four successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-64c8a-hildren-Per-Room---4---Four-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-64c8a-hildren-Per-Room---4---Four-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Fill Search Hotel fields and reset them" classname="HotelTests\SearchHotelPage.spec.ts" time="12.416">
+<system-out>
+<![CDATA[2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element location
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Brisbane is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Cornice is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:04+02:00 [info]: Option with value Double is selected: true
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:04+02:00 [info]: Option with value 4 - Four is selected: true
+2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:04+02:00 [info]: Successfully clicked element resetButton
+2024-08-09T17:16:04+02:00 [info]: Filled Search Hotel fields and reset them successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-c9e76-Hotel-fields-and-reset-them-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-c9e76-Hotel-fields-and-reset-them-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Search Hotel Tests Suite › Search Hotel" classname="HotelTests\SearchHotelPage.spec.ts" time="14.944">
+<system-out>
+<![CDATA[2024-08-09T17:15:59+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:59+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:59+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element location
+2024-08-09T17:16:02+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:02+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T17:16:02+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Hervey is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Deluxe is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:16:05+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:05+02:00 [info]: Option with value 5 - Five is selected: true
+2024-08-09T17:16:05+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:16:05+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:16:05+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:16:06+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:16:06+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:16:06+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:06+02:00 [info]: Successfully clicked element searchButton
+2024-08-09T17:16:06+02:00 [info]: Searched Hotel successfully
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-251d1-el-Tests-Suite-Search-Hotel-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\HotelTests-SearchHotelPage-251d1-el-Tests-Suite-Search-Hotel-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

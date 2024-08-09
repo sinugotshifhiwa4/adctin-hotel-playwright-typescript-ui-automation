@@ -1,0 +1,11 @@
+2024-08-09T17:13:26+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:13:26+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:13:26+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:13:26+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:13:27+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:13:27+02:00 [info]: Successfully selected element location
+2024-08-09T17:13:28+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:13:28+02:00 [info]: Option with value Adelaide is selected: true
+2024-08-09T17:13:28+02:00 [info]: Selected Location - Adelaide successfully

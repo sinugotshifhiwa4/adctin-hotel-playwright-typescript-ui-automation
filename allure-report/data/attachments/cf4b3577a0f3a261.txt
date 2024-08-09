@@ -1,0 +1,9 @@
+2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:15:50+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:15:50+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:15:50+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:15:51+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 0 - None successfully

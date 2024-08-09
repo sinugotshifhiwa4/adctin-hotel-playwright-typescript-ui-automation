@@ -1,0 +1,3877 @@
+{
+  "config": {
+    "configFile": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\playwright.config.ts",
+    "rootDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\node_modules\\ortoni-report\\dist\\ortoni-report.js",
+        {
+          "logo": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation/ComCorp_Logo.png",
+          "authorName": "Tshifhiwa Sinugo",
+          "base64Image": false,
+          "preferredTheme": "dark",
+          "projectName": "Adactin Hotel Book Hotel Test Report",
+          "testType": "Smoke"
+        }
+      ],
+      [
+        "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 50000
+      },
+      {
+        "outputDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 50000
+      },
+      {
+        "outputDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Playwright_Projects/adactin-Hotel-Book-Hotel-ui-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 50000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.46.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "HotelTests\\LoginPage.spec.ts",
+      "file": "HotelTests/LoginPage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Tests Suite",
+          "file": "HotelTests/LoginPage.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 21763,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:12+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:14+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:14+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:14+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:15+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:15+02:00 [info]: Login with valid credentials was successful\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:16+02:00 [info]: Successfully verified element errorMessageAbsent is not visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:16+02:00 [info]: Successfully verified element welcomeTextPresent is visible\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Login with valid credentials",
+                          "duration": 2871
+                        },
+                        {
+                          "title": "Verify error message is absent",
+                          "duration": 9
+                        },
+                        {
+                          "title": "Verify welcome text",
+                          "duration": 17
+                        }
+                      ],
+                      "startTime": "2024-08-09T15:12:54.187Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-LoginPage-Login-e6811-ogin-with-valid-credentials-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-LoginPage-Login-e6811-ogin-with-valid-credentials-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dd131f03563d4b942541-2b38f74f23d473e9f73b",
+              "file": "HotelTests/LoginPage.spec.ts",
+              "line": 16,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "HotelTests\\SearchHotelPage.spec.ts",
+      "file": "HotelTests/SearchHotelPage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Search Hotel Tests Suite",
+          "file": "HotelTests/SearchHotelPage.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Select Location - Sydney",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 9918,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:01+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:02+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:02+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:02+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:02+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:03+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:04+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:04+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:04+02:00 [info]: Option with value Sydney is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:04+02:00 [info]: Selected Location - Sydney successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:12:54.676Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-05322-te-Select-Location---Sydney-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-05322-te-Select-Location---Sydney-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-c56e6f949e80fb3063e5",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - Melbourne",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 24563,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:15+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:16+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:19+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:19+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:20+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:20+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:21+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:21+02:00 [info]: Option with value Melbourne is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:21+02:00 [info]: Selected Location - Melbourne successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:12:54.518Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2b47a-Select-Location---Melbourne-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2b47a-Select-Location---Melbourne-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-7a4e76fc1e119562935d",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - Brisbane",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 23890,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:12+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:13+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:15+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:15+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:16+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:16+02:00 [info]: Option with value Brisbane is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:16+02:00 [info]: Selected Location - Brisbane successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:12:53.712Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-94f01--Select-Location---Brisbane-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-94f01--Select-Location---Brisbane-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-1c7f859c129a49a8d572",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - Adelaide",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 23571,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:26+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:26+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:26+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:26+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:26+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:26+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:27+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:27+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:28+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:28+02:00 [info]: Option with value Adelaide is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:28+02:00 [info]: Selected Location - Adelaide successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:05.785Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-aed71--Select-Location---Adelaide-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-aed71--Select-Location---Adelaide-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-bd540ffdac4a94aca5b8",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - London",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 22029,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:38+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:38+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:38+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:38+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:38+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:38+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:40+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:40+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:41+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:41+02:00 [info]: Option with value London is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:41+02:00 [info]: Selected Location - London successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:22.830Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-ebf27-te-Select-Location---London-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-ebf27-te-Select-Location---London-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-d2cccc572619fd3fb11a",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - New York",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 29792,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:43+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:45+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Option with value New York is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Selected Location - New York successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:22.858Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-e99e5--Select-Location---New-York-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-e99e5--Select-Location---New-York-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-7231e6bdcdc05bf3f0d7",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - Los Angeles",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 27503,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:39+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:40+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:40+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:41+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:41+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:41+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:42+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:43+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:43+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:43+02:00 [info]: Option with value Los Angeles is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:43+02:00 [info]: Selected Location - Los Angeles successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:24.400Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-9291b-lect-Location---Los-Angeles-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-9291b-lect-Location---Los-Angeles-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-0dc48af6d71d53a251cf",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Location - Paris",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 22303,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:13:43+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:44+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:45+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:45+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Option with value Paris is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:13:46+02:00 [info]: Selected Location - Paris successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:29.535Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-f9659-ite-Select-Location---Paris-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-f9659-ite-Select-Location---Paris-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-614396b3035f5b18d146",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Select Hotel - Hotel Creek",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 24507,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:07+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Successfully selected element hotels\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Option with value Hotel Creek is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Selected Hotel - Hotel Creek successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:45.212Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-b51a7--Select-Hotel---Hotel-Creek-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-b51a7--Select-Hotel---Hotel-Creek-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-b622fcfdc7d5eb871812",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Select Hotel - Hotel Sunshine",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 15394,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:02+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:02+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:02+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:02+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:02+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:04+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:04+02:00 [info]: Successfully selected element hotels\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:05+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:05+02:00 [info]: Option with value Hotel Sunshine is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:05+02:00 [info]: Selected Hotel - Hotel Sunshine successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:52.113Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-6efd6-lect-Hotel---Hotel-Sunshine-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-6efd6-lect-Hotel---Hotel-Sunshine-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-e6a0b01389efdf284ebb",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Select Hotel - Hotel Hervey",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 18181,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:06+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:07+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:07+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:07+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Successfully selected element hotels\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Option with value Hotel Hervey is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:08+02:00 [info]: Selected Hotel - Hotel Hervey successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:52.114Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-bbb8f-Select-Hotel---Hotel-Hervey-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-bbb8f-Select-Hotel---Hotel-Hervey-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-df08676df561b8380d73",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Select Hotel - Hotel Cornice",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 11197,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:01+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:01+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:01+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:01+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:01+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:01+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:03+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:03+02:00 [info]: Successfully selected element hotels\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:03+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:03+02:00 [info]: Option with value Hotel Cornice is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:03+02:00 [info]: Selected Hotel - Hotel Cornice successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:13:54.219Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-e1f45-elect-Hotel---Hotel-Cornice-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-e1f45-elect-Hotel---Hotel-Cornice-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-a7a3c398818b198edeb2",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Select Room Type - Standard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 18036,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:17+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Option with value Standard is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Standard successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:06.007Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-7d81c-Select-Room-Type---Standard-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-7d81c-Select-Room-Type---Standard-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-8cb3775e9f64abfb64e3",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 37,
+              "column": 9
+            },
+            {
+              "title": "Select Room Type - Double",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 16214,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:15+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:17+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Option with value Double is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Double successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:07.567Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-b1e80-e-Select-Room-Type---Double-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-b1e80-e-Select-Room-Type---Double-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-f051a8345c84c65d4fae",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 37,
+              "column": 9
+            },
+            {
+              "title": "Select Room Type - Deluxe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 15336,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:17+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:17+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:20+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:20+02:00 [info]: Successfully selected element roomType\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:21+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:21+02:00 [info]: Option with value Deluxe is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:21+02:00 [info]: Selected Room Type - Deluxe successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:09.776Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-082ce-e-Select-Room-Type---Deluxe-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-082ce-e-Select-Room-Type---Deluxe-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-8ac86bfcc235f7cc2fce",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 37,
+              "column": 9
+            },
+            {
+              "title": "Select Room Type - Super Deluxe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 13940,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:15+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:15+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:15+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:16+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:17+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:18+02:00 [info]: Successfully selected element roomType\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Option with value Super Deluxe is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:19+02:00 [info]: Selected Room Type - Super Deluxe successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:10.391Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-80674-ct-Room-Type---Super-Deluxe-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-80674-ct-Room-Type---Super-Deluxe-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-99922b0565f0679f4420",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 37,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 1 - One",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 10831,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Option with value 1 - One is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Selected No of Rooms - 1 - One successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:23.834Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-eb177-elect-No-of-Rooms---1---One-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-eb177-elect-No-of-Rooms---1---One-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-84aa740fda51e746f57f",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 2 - Two",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12657,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:33+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:33+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:33+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Option with value 2 - Two is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Selected No of Rooms - 2 - Two successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:24.233Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-5c695-elect-No-of-Rooms---2---Two-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-5c695-elect-No-of-Rooms---2---Two-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-a4d7733f275529d054a5",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 3 - Three",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 12151,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:33+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:33+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Option with value 3 - Three is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:34+02:00 [info]: Selected No of Rooms - 3 - Three successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:24.741Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-dc55c-ect-No-of-Rooms---3---Three-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-dc55c-ect-No-of-Rooms---3---Three-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-fd357dbd3779f8d7654c",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 4 - Four",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 10543,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:29+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:30+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:31+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Option with value 4 - Four is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:32+02:00 [info]: Selected No of Rooms - 4 - Four successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:25.171Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-34e88-lect-No-of-Rooms---4---Four-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-34e88-lect-No-of-Rooms---4---Four-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-494c91610286e737cd39",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 5 - Five",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 17894,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:42+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:42+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:42+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:43+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:43+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:43+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:44+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:45+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Option with value 5 - Five is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Selected No of Rooms - 5 - Five successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:35.296Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-aead9-lect-No-of-Rooms---5---Five-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-aead9-lect-No-of-Rooms---5---Five-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-559d39b0c3b1ed1fa619",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 6 - Six",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 18155,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:48+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Option with value 6 - Six is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Selected No of Rooms - 6 - Six successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:35.827Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-82c44-elect-No-of-Rooms---6---Six-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-82c44-elect-No-of-Rooms---6---Six-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-755104bb16c3f471b8ed",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 7 - Seven",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 15354,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:45+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:47+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:48+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Option with value 7 - Seven is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:49+02:00 [info]: Selected No of Rooms - 7 - Seven successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:36.951Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-e7ab5-ect-No-of-Rooms---7---Seven-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-e7ab5-ect-No-of-Rooms---7---Seven-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-5115f165aec8fc557a5e",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 8 - Eight",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 15008,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:43+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:44+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:44+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:44+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:44+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:44+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:45+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Option with value 8 - Eight is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:46+02:00 [info]: Selected No of Rooms - 8 - Eight successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:36.952Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-4e527-ect-No-of-Rooms---8---Eight-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-4e527-ect-No-of-Rooms---8---Eight-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-e54adaef677bb24d34b4",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 9 - Nine",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 24009,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:09+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:10+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:10+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:10+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:10+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:10+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Option with value 9 - Nine is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Selected No of Rooms - 9 - Nine successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:52.054Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-1f0c5-lect-No-of-Rooms---9---Nine-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-1f0c5-lect-No-of-Rooms---9---Nine-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-8afda0e23b293df59c6c",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Select No of Rooms - 10 - Ten",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 12973,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:03+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:04+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:04+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:04+02:00 [info]: Option with value 10 - Ten is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:04+02:00 [info]: Selected No of Rooms - 10 - Ten successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:52.348Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-69b99-lect-No-of-Rooms---10---Ten-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-69b99-lect-No-of-Rooms---10---Ten-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-9bb76cca04e5f7ae2d59",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Fill Check In Date - 10/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 11586,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:00+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:02+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:03+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:03+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:03+02:00 [info]: Filled Check In Date - 10/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:53.291Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-a4587--Check-In-Date---10-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-a4587--Check-In-Date---10-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-6f989afaae9788394ca3",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Fill Check In Date - 15/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 8868,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:14:59+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:59+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:59+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:59+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:14:59+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:00+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:01+02:00 [info]: Filled Check In Date - 15/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:14:54.099Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-042d0--Check-In-Date---15-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-042d0--Check-In-Date---15-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-429865b9058ad100601f",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Fill Check In Date - 20/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 13433,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:14+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:14+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:14+02:00 [info]: Filled Check In Date - 20/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:03.519Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-f0c73--Check-In-Date---20-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-f0c73--Check-In-Date---20-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-fef6d6a90dd1d1183bc8",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Fill Check In Date - 25/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 13578,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:14+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:14+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:14+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:15+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:15+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:15+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:15+02:00 [info]: Filled Check In Date - 25/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:04.924Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-7ed39--Check-In-Date---25-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-7ed39--Check-In-Date---25-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-31d63af83c4ef174a35f",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Fill Check In Date - 30/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 10361,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:11+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:12+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:13+02:00 [info]: Filled Check In Date - 30/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:05.667Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-8cc20--Check-In-Date---30-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-8cc20--Check-In-Date---30-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-0a108cce9cd0942d15b6",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Fill Check Out Date - 12/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 11531,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:23+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:23+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:23+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:23+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:23+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Filled Check Out Date - 12/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:16.600Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2b479-Check-Out-Date---12-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2b479-Check-Out-Date---12-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-35d31b155b7fad59048b",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Fill Check Out Date - 18/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12194,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 18/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:17.006Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2548c-Check-Out-Date---18-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2548c-Check-Out-Date---18-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-1b5af63dd4fce65fe21f",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Fill Check Out Date - 23/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 10868,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Filled Check Out Date - 23/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:17.097Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-50f30-Check-Out-Date---23-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-50f30-Check-Out-Date---23-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-6f4bf5fd5898df7b9eae",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Fill Check Out Date - 28/08/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 10822,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:24+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:25+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:26+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:27+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:27+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:27+02:00 [info]: Filled Check Out Date - 28/08/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:18.555Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-a0642-Check-Out-Date---28-08-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-a0642-Check-Out-Date---28-08-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-f10a7b7634ff0a815eaf",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Fill Check Out Date - 02/09/2024",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 11406,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:36+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Filled Check Out Date - 02/09/2024 successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:28.460Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-15670-Check-Out-Date---02-09-2024-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-15670-Check-Out-Date---02-09-2024-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-ce78681de7121cbf2617",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "Select Adults Per Room - 1 - One",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 12183,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:39+02:00 [info]: Successfully selected element adultPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:39+02:00 [info]: Selected Adults Per Room - 1 - One successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:28.648Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-f2ead-t-Adults-Per-Room---1---One-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-f2ead-t-Adults-Per-Room---1---One-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-55d480e897d7c7f88f9e",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 67,
+              "column": 9
+            },
+            {
+              "title": "Select Adults Per Room - 2 - Two",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 10982,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:35+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:36+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:36+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:36+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Successfully selected element adultPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:37+02:00 [info]: Selected Adults Per Room - 2 - Two successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:29.245Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2f9f3-t-Adults-Per-Room---2---Two-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2f9f3-t-Adults-Per-Room---2---Two-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-bd4ba33cf1edc3f99d3b",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 67,
+              "column": 9
+            },
+            {
+              "title": "Select Adults Per Room - 3 - Three",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 12047,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:38+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:39+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:39+02:00 [info]: Successfully selected element adultPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:39+02:00 [info]: Selected Adults Per Room - 3 - Three successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:29.425Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-d2205-Adults-Per-Room---3---Three-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-d2205-Adults-Per-Room---3---Three-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-5d860168e65043aa0604",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 67,
+              "column": 9
+            },
+            {
+              "title": "Select Adults Per Room - 4 - Four",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 13294,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:48+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:48+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:48+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:48+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:48+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully selected element adultPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Selected Adults Per Room - 4 - Four successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:40.239Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-c633f--Adults-Per-Room---4---Four-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-c633f--Adults-Per-Room---4---Four-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-513f7604ed70b6fd0eaa",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 67,
+              "column": 9
+            },
+            {
+              "title": "Select Children Per Room - 0 - None",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 12919,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:51+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 0 - None successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:40.684Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-92162-hildren-Per-Room---0---None-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-92162-hildren-Per-Room---0---None-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-10e87a5458c97e78c0e1",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 76,
+              "column": 9
+            },
+            {
+              "title": "Select Children Per Room - 1 - One",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 11173,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:47+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:47+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:47+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:47+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:47+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:47+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:48+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Selected Children Per Room - 1 - One successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:40.926Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-de0a3-Children-Per-Room---1---One-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-de0a3-Children-Per-Room---1---One-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-fae1f3584fab7274b0ce",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 76,
+              "column": 9
+            },
+            {
+              "title": "Select Children Per Room - 2 - Two",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 11884,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:49+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:50+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:51+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:51+02:00 [info]: Selected Children Per Room - 2 - Two successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:41.521Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-8e4cc-Children-Per-Room---2---Two-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-8e4cc-Children-Per-Room---2---Two-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-22c0f6fc61185f2df457",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 76,
+              "column": 9
+            },
+            {
+              "title": "Select Children Per Room - 3 - Three",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 13287,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Selected Children Per Room - 3 - Three successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:52.426Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2568c-ildren-Per-Room---3---Three-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-2568c-ildren-Per-Room---3---Three-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-fe4eae87564e1f1af01e",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 76,
+              "column": 9
+            },
+            {
+              "title": "Select Children Per Room - 4 - Four",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 14027,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:02+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Selected Children Per Room - 4 - Four successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:53.606Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-64c8a-hildren-Per-Room---4---Four-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-64c8a-hildren-Per-Room---4---Four-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-f63870c000e66c6b3db1",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 76,
+              "column": 9
+            },
+            {
+              "title": "Fill Search Hotel fields and reset them",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 12416,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Option with value Brisbane is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully selected element hotels\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Cornice is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Option with value Double is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Option with value 4 - Four is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully selected element adultPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Successfully clicked element resetButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:04+02:00 [info]: Filled Search Hotel fields and reset them successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:53.607Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-c9e76-Hotel-fields-and-reset-them-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-c9e76-Hotel-fields-and-reset-them-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-4b6b2c36c6269b24c88a",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 84,
+              "column": 7
+            },
+            {
+              "title": "Search Hotel",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 14944,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Navigated to https://adactinhotelapp.com/\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully verified element hotelLogoPresent is visible\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully cleared element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:15:59+02:00 [info]: Successfully filled element usernameTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:01+02:00 [info]: Successfully selected element location\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:02+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:02+02:00 [info]: Option with value Adelaide is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:02+02:00 [info]: Successfully selected element hotels\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Hervey is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Option with value Deluxe is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:03+02:00 [info]: Successfully selected element noOfRooms\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:05+02:00 [info]: Successfully captured screenshot isOptionSelected \r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:05+02:00 [info]: Option with value 5 - Five is selected: true\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:05+02:00 [info]: Successfully cleared element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:05+02:00 [info]: Successfully pressed keys sequentially on element checkInDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:05+02:00 [info]: Successfully cleared element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:06+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:06+02:00 [info]: Successfully selected element adultPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:06+02:00 [info]: Successfully selected element childrenPerRoom\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:06+02:00 [info]: Successfully clicked element searchButton\r\n"
+                        },
+                        {
+                          "text": "2024-08-09T17:16:06+02:00 [info]: Searched Hotel successfully\r\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-08-09T15:15:53.736Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-251d1-el-Tests-Suite-Search-Hotel-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Playwright_Projects\\adactin-Hotel-Book-Hotel-ui-automation\\test-results\\HotelTests-SearchHotelPage-251d1-el-Tests-Suite-Search-Hotel-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4760edc986b8b796f1fd-e22bf9b7276111ed876f",
+              "file": "HotelTests/SearchHotelPage.spec.ts",
+              "line": 99,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-08-09T15:12:49.318Z",
+    "duration": 200044.215,
+    "expected": 48,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

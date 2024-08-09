@@ -1,0 +1,27 @@
+2024-08-09T17:16:00+02:00 [info]: Navigated to https://adactinhotelapp.com/
+2024-08-09T17:16:00+02:00 [info]: Successfully verified element hotelLogoPresent is visible
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element usernameTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully cleared element passwordTextBox
+2024-08-09T17:16:00+02:00 [info]: Successfully filled element passwordTextBox
+2024-08-09T17:16:01+02:00 [info]: Successfully clicked element loginButton
+2024-08-09T17:16:01+02:00 [info]: Successfully selected element location
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Brisbane is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element hotels
+2024-08-09T17:16:03+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:03+02:00 [info]: Option with value Hotel Cornice is selected: true
+2024-08-09T17:16:03+02:00 [info]: Successfully selected element roomType
+2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:04+02:00 [info]: Option with value Double is selected: true
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element noOfRooms
+2024-08-09T17:16:04+02:00 [info]: Successfully captured screenshot isOptionSelected 
+2024-08-09T17:16:04+02:00 [info]: Option with value 4 - Four is selected: true
+2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkInDate
+2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkInDate
+2024-08-09T17:16:04+02:00 [info]: Successfully cleared element checkOutDate
+2024-08-09T17:16:04+02:00 [info]: Successfully pressed keys sequentially on element checkOutDate
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element adultPerRoom
+2024-08-09T17:16:04+02:00 [info]: Successfully selected element childrenPerRoom
+2024-08-09T17:16:04+02:00 [info]: Successfully clicked element resetButton
+2024-08-09T17:16:04+02:00 [info]: Filled Search Hotel fields and reset them successfully
